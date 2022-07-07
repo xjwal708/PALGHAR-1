@@ -1,5 +1,3 @@
-import asyncio
-
 from pyrogram import idle
 
 from xnkit.clients import app
