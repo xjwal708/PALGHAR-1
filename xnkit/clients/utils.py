@@ -5,10 +5,10 @@ import time
 from pyrogram import __version__ as pyro_version
 from telegraph import Telegraph
 
+from config import Config
 from xnkit.database import Database
 from xnkit.helpers import Helpers
 from xnkit.pyrogramx.methods import Methods
-from config import Config
 
 
 class Utils(Methods, Config, Database, Helpers):
@@ -47,6 +47,4 @@ class Utils(Methods, Config, Database, Helpers):
     # telegraph /
 
     telegraph = Telegraph()
-    telegraph.create_account(
-        short_name=Config.TL_NAME if Config.TL_NAME else "XnKiT"
-    )
+    telegraph.create_account(short_name=Config.TL_NAME if Config.TL_NAME else "XnKiT")
