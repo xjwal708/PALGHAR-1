@@ -41,7 +41,7 @@ async def start_bot():
     clients custom 'import_module' to start clients & import modules.
     """
     print(
-        "___________________________________. Welcome to Asterix World .___________________________________\n\n\n"
+        "___________________________________. Welcome to Ankit World .___________________________________\n\n\n"
     )
     print("PLUGINS: Installing.\n\n")
     plugins = app.import_module("xnkit/plugins/", exclude=app.NoLoad())
