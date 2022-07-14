@@ -27,3 +27,4 @@ qrcode
 bing-image-downloader
 pysimplelog
 ryoishin
+pyrogram.scaffold
