@@ -14,7 +14,7 @@ app.CMD_HELP.update(
         "dev": (
             "dev",
             {
-                "eval print('LeGeNd'S SaY's To (c)AnKiT')": "A nice tool to test python codes.",
+                "eval print('LeGeNd'S SaY's To AnKiT')": "A nice tool to test python codes.",
                 "term pip3 install colorama": "Run commands in shell.",
             },
         )
