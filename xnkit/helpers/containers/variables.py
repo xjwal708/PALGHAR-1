@@ -3,8 +3,8 @@ class Variables(object):
     message_ids = {}
 
     # assistant
-    assistant_name = "XnKiT"
-    assistant_age = "1"
+    assistant_name = "<\> ᴀɴᴋɪᴛ 🇮🇳 <\>"
+    assistant_age = "15"
     assistant_gender = "Male"
 
     # userbot
