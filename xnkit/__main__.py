@@ -2,7 +2,7 @@ from pyrogram import idle
 
 from xnkit.clients import app
 
-loop = xnkit.get_event_loop()
+loop = asyncio.get_event_loop()
 
 
 async def start_assistant():
