@@ -224,7 +224,7 @@ async def weather_handler(_, m: Message):
 async def webshot_handler(_, m: Message):
     if app.long(m) > 1:
         try:
-            BASE = "https://render-asterix.appspot.com/screenshot/"
+            BASE = "https://render-xnkit.appspot.com/screenshot/"
             url = m.command[1]
             path = "./downloads/screenshot.jpg"
             response = requests.get(BASE + url, stream=True)
